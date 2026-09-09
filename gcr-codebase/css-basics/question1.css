@@ -1,0 +1,15 @@
+/* Styling for the portfolio page */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
