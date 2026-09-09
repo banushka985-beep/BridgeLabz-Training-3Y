@@ -1,0 +1,54 @@
+/* Page styling */
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Article */
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+}
+
+/* Paragraph spacing */
+p {
+    margin-bottom: 25px;
+    line-height: 1.8;
+}
+
+/* First letter */
+main > p::first-letter {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* First line */
+main > p::first-line {
+    font-weight: bold;
+}
+
+/* Highlight */
+mark {
+    background-color: #ffeb3b;
+    padding: 3px;
+}
+
+/* Blockquote */
+blockquote {
+    border-left: 6px solid #333;
+    background-color: #eeeeee;
+    padding: 20px;
+    margin: 30px 0;
+    font-style: italic;
+}
