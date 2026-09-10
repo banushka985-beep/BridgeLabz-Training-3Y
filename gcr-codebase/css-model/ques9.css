@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+form {
+    width: 350px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px gray;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Different outline */
+input {
+    outline: 2px solid transparent;
+    outline-offset: 3px;
+}
+
+/* Focus changes outline */
+input:focus,
+textarea:focus {
+    outline: 3px solid blue;
+    outline-offset: 3px;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+}
