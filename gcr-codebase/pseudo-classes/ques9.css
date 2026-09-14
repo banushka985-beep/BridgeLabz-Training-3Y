@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #1b1b2b;
+  color: #f4f4f8;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem 0.5rem;
+}
+
+header h1 {
+  color: #ff9f68;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #a9a9c0;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.effects-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 2rem;
+}
+
+.effect-card {
+  padding: 1.2rem 1.6rem;
+  font-size: 1rem;
+  color: #1b1b2b;
+  background-color: #ff9f68;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+}
+
+.effect-card:nth-child(1):hover {
+  transform: scale(1.15);
+  background-color: #ffbb85;
+  box-shadow: 0 8px 18px rgba(255, 159, 104, 0.5);
+}
+
+.effect-card:nth-child(2):hover {
+  transform: translateY(-10px);
+  background-color: #7fd8be;
+  box-shadow: 0 10px 20px rgba(127, 216, 190, 0.4);
+}
+
+.effect-card:nth-child(3):hover {
+  transform: rotate(-4deg) scale(1.05);
+  background-color: #c19bf7;
+  box-shadow: 0 8px 18px rgba(193, 155, 247, 0.4);
+}
+
+.effect-card:nth-child(4):hover {
+  transform: scale(1.08);
+  background-color: #ffe08a;
+  box-shadow: 0 8px 18px rgba(255, 224, 138, 0.5);
+}
