@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pseudo-Classes Demonstration</title>
+  <link rel="stylesheet" href="q1_pseudo_classes.css" />
+</head>
+<body>
+  <header>
+    <h1>CSS Pseudo-Classes in Action</h1>
+    <p>A quick tour of :hover, :focus, :active and :nth-child()</p>
+  </header>
+
+  <main>
+    <section class="demo-row">
+
+      <article class="demo-card">
+        <h2>:hover</h2>
+        <a class="sample-link" href="#">Hover over me</a>
+        <p>Changes color when the mouse pointer rests on the link.</p>
+      </article>
+
+      <article class="demo-card">
+        <h2>:focus</h2>
+        <input class="sample-input" type="text" placeholder="Click or tab here" />
+        <p>Outline and background change when the field is focused.</p>
+      </article>
+
+      <article class="demo-card">
+        <h2>:active</h2>
+        <button class="sample-button">Press and hold</button>
+        <p>Shrinks and darkens while the mouse button is down.</p>
+      </article>
+
+      <article class="demo-card">
+        <h2>:nth-child()</h2>
+        <ul class="sample-list">
+          <li>Item one</li>
+          <li>Item two</li>
+          <li>Item three</li>
+          <li>Item four</li>
+          <li>Item five</li>
+        </ul>
+        <p>Every second item gets a shaded background.</p>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>Pseudo-classes let CSS react to state and position without any JavaScript.</p>
+  </footer>
+</body>
+</html>

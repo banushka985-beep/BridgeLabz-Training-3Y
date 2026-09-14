@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Box-Sizing Comparison</title>
+  <link rel="stylesheet" href="q8_box_sizing.css" />
+</head>
+<body>
+  <header>
+    <h1>Box-Sizing Comparison</h1>
+    <p>Same width and padding, two different sizing rules.</p>
+  </header>
+
+  <main>
+    <section class="compare-row">
+
+      <div class="box box-default">
+        <h2>content-box (default)</h2>
+        <p>width: 200px + padding: 20px adds up, so this box renders wider than 200px in total.</p>
+      </div>
+
+      <div class="box box-border">
+        <h2>border-box</h2>
+        <p>width: 200px already includes the padding, so this box stays exactly 200px wide.</p>
+      </div>
+
+    </section>
+
+    <section class="explanation">
+      <p>
+        With the default <code>content-box</code>, padding and border are added
+        on top of the declared width, making the element grow larger than
+        expected. With <code>box-sizing: border-box</code>, padding and border
+        are included inside the declared width, so the total size stays predictable.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Resize the window to see both boxes remain centered and responsive.</p>
+  </footer>
+</body>
+</html>

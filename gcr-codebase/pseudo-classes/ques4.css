@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #ffffff;
+  color: #26323a;
+  padding: 0 1rem;
+}
+
+header,
+footer {
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+header {
+  background-color: #eef3f5;
+}
+
+footer {
+  border-top: 1px solid #dde3e6;
+  color: #667079;
+  font-size: 0.9rem;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.block {
+  padding: 1.2rem 0;
+  border-bottom: 1px dashed #d3dade;
+}
+
+.block h2 {
+  color: #2b6f6c;
+}
+
+/* Element selector */
+p {
+  line-height: 1.5;
+  margin: 0.4rem 0;
+}
+
+/* Class selector */
+.highlight {
+  background-color: #fff3c4;
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+}
+
+/* ID selector */
+#intro-text {
+  font-weight: bold;
+  color: #b1490d;
+}
+
+/* Attribute selectors */
+a[target="_blank"] {
+  color: #a4340e;
+}
+
+a[href^="#"] {
+  color: #2b6f6c;
+}
+
+/* Child combinator (>) */
+.combo-group > p {
+  color: #1c5b8a;
+  font-weight: bold;
+}
+
+/* Adjacent sibling combinator (+) */
+h3 + p {
+  color: #6a3f9c;
+}
+
+/* General sibling combinator (~) */
+h3 ~ span {
+  font-style: italic;
+}
+
+/* Descendant selector */
+.descendant-wrap p {
+  background-color: #eaf5ea;
+  padding: 0.4rem;
+  border-radius: 4px;
+}
