@@ -1,0 +1,11 @@
+/* Page background */
+body {
+    background-color: #fffaf5;
+}
+
+/* Food image */
+figure img {
+    max-height: 350px;
+    width: 100%;
+    object-fit: cover;
+}

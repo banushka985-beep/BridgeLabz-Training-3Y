@@ -1,0 +1,13 @@
+/* Blog card hover */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+/* Keep pagination visually clear */
+.pagination {
+    margin-bottom: 0;
+}

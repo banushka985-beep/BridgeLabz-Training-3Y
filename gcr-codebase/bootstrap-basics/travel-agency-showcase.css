@@ -1,0 +1,32 @@
+/* Carousel images */
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+/* Dark overlay behind carousel captions */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 8px;
+    padding: 15px;
+}
+
+/* Responsive carousel height */
+@media (max-width: 768px) {
+
+    .carousel-item img {
+        height: 350px;
+    }
+
+    .carousel-caption {
+        padding: 8px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 1.3rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.85rem;
+    }
+}

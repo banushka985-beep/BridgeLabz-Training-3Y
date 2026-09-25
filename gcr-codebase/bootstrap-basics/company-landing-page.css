@@ -1,0 +1,16 @@
+/* Custom hero background */
+.hero {
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    background: #f4f7fb;
+}
+
+/* Smooth button effect */
+.btn {
+    transition: transform 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
